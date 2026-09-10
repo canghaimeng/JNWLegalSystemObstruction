@@ -1,5 +1,8 @@
 # JNW Legal-System Obstruction
 
+[![arXiv](https://img.shields.io/badge/arXiv-pending-lightgrey.svg)](#citation)
+[![Lean build](https://github.com/canghaimeng/JNWLegalSystemObstruction/actions/workflows/lean.yml/badge.svg)](https://github.com/canghaimeng/JNWLegalSystemObstruction/actions/workflows/lean.yml)
+
 This Lean 4 project formalizes the explicit 33-vertex solution of the
 non-parenthetical, four-connected form of Jankiewicz--Norin--Wise Problem 5.2.
 It deliberately makes no claim about the stronger parenthetical condition on
@@ -18,6 +21,9 @@ rg -n --glob '*.lean' '\b(sorry|admit|axiom|unsafe)\b' .
 
 The final scan is expected to print no source occurrence.  Generated `.lake/`
 dependencies are outside that source scan.
+
+Every push and pull request is checked by GitHub Actions using the standard
+[`leanprover/lean-action`](https://github.com/leanprover/lean-action).
 
 ## Theorem map
 
@@ -54,3 +60,7 @@ connected, has no triangle and has girth at least four (indeed it contains the
 displayed interface four-cycle), has two-curvature one, admits no JNW legal
 system, and has no proper four-connected ordinary subgraph.
 
+## Citation
+
+The arXiv identifier and final BibTeX entry will be added here when the paper
+is posted.
