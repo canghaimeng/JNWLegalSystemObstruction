@@ -1,6 +1,6 @@
 # JNW Legal-System Obstruction
 
-[![arXiv](https://img.shields.io/badge/arXiv-pending-lightgrey.svg)](#citation)
+[![arXiv](https://img.shields.io/badge/arXiv-2609.13419-b31b1b.svg)](https://arxiv.org/abs/2609.13419)
 [![Lean build](https://github.com/canghaimeng/JNWLegalSystemObstruction/actions/workflows/lean.yml/badge.svg)](https://github.com/canghaimeng/JNWLegalSystemObstruction/actions/workflows/lean.yml)
 
 This Lean 4 project formalizes the explicit 33-vertex solution of the
@@ -62,5 +62,14 @@ system, and has no proper four-connected ordinary subgraph.
 
 ## Citation
 
-The arXiv identifier and final BibTeX entry will be added here when the paper
-is posted.
+```bibtex
+@misc{chen2026fourconnected,
+  title         = {A Four-Connected Graph without a Legal System},
+  author        = {Chen, Qiuyu},
+  year          = {2026},
+  eprint        = {2609.13419},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.DM},
+  url           = {https://arxiv.org/abs/2609.13419}
+}
+```
