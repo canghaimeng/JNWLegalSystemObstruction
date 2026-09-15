@@ -5,8 +5,6 @@
 
 This Lean 4 project formalizes the explicit 33-vertex solution of the
 non-parenthetical, four-connected form of Jankiewicz--Norin--Wise Problem 5.2.
-It deliberately makes no claim about the stronger parenthetical condition on
-all three-connected ordinary subgraphs.
 
 ## Build and reproduce
 
